@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Mithoo Table — homemade Nepali-style momo, sel roti and choila in Hamilton, Ontario.">
+  <title>The Mithoo Table | Nepali Homemade Flavours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <header class="site-header" id="top">
+  <div class="container simple-header">
+    <a class="brand" href="#top" aria-label="The Mithoo Table home">
+      <img src="assets/logo.png" alt="The Mithoo Table logo">
+    </a>
+
+    <a class="nav-order-btn" href="#order">
+      Order Now <span>→</span>
+    </a>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-pattern"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">HOMEMADE • NEPALI • WITH LOVE</p>
+        <h1>Authentic flavours,<br><em>made for your table.</em></h1>
+        <p class="hero-copy">
+          A little taste of Nepal, made with comforting flavours, familiar
+          ingredients and the warmth of homemade food.
+        </p>
+        <a class="btn btn-primary" href="#menu">Explore the menu <span>↓</span></a>
+      </div>
+      <div class="hero-line-art" aria-hidden="true">✦</div>
+    </section>
+
+    <section class="intro" id="story">
+      <div class="container intro-grid">
+        <div>
+          <p class="section-kicker">THE MITHOO TABLE</p>
+          <h2>Good food tastes<br><em>better together.</em></h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            The Mithoo Table brings homemade Nepali favourites to your table —
+            from juicy momos and smoky choila to crispy sel roti.
+          </p>
+          <p>
+            Made in small batches with care, so every bite feels a little
+            closer to home.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">OUR MENU</p>
+          <h2>Simple. Traditional. <em>Mithoo.</em></h2>
+          <p>Tap any dish to discover more.</p>
+        </div>
+
+        <div class="menu-filters" role="tablist" aria-label="Menu categories">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="momo">Momo</button>
+          <button class="filter" data-filter="choila">Choila</button>
+          <button class="filter" data-filter="selroti">Sel Roti</button>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="food-card" data-category="momo" data-title="Nepali Style Momo"
+            data-description="Hand-shaped Nepali-style dumplings filled with your choice of chicken, pork or paneer. Available frozen or cooked.">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb?auto=format&fit=crop&w=1000&q=85"
+                   alt="Steamed dumplings">
+              <span class="card-tag">MOMO</span>
+            </div>
+            <div class="food-content">
+              <h3>Nepali Style Momo</h3>
+              <p>Chicken · Pork · Paneer</p>
+              <span class="card-link">View details <b>→</b></span>
+            </div>
+          </article>
+
+          <article class="food-card" data-category="selroti" data-title="Sel Roti"
+            data-description="A beloved Nepali rice-flour ring bread with a crisp outside and a pleasantly chewy centre — traditionally enjoyed fresh.">
+            <div class="food-image">
+              <img src="https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/recipe_pics_v2/medium/sel_roti.jpg"
+                   alt="Nepali sel roti">
+              <span class="card-tag">TRADITIONAL</span>
+            </div>
+            <div class="food-content">
+              <h3>Sel Roti</h3>
+              <p>Traditional Nepali rice bread</p>
+              <span class="card-link">View details <b>→</b></span>
+            </div>
+          </article>
+
+          <article class="food-card" data-category="choila" data-title="Choila"
+            data-description="A bold Nepali favourite with smoky, spiced flavours. Choose pork or chicken.">
+            <div class="food-image">
+              <img src="https://i.pinimg.com/736x/5e/78/e3/5e78e3ee9c04aa69c64f3c1d76c7f99d.jpg"
+                   alt="Nepali choila">
+              <span class="card-tag">NEPALI FAVOURITE</span>
+            </div>
+            <div class="food-content">
+              <h3>Choila</h3>
+              <p>Pork · Chicken</p>
+              <span class="card-link">View details <b>→</b></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="container feature-box">
+        <div class="feature-copy">
+          <p class="section-kicker">FROM OUR KITCHEN</p>
+          <h2>Traditional recipes.<br><em>Made with heart.</em></h2>
+          <p>
+            Whether you're craving momo for a cozy evening, sel roti for a
+            taste of tradition, or choila for something bold — there's a
+            little something for every Nepali food lover.
+          </p>
+          <a class="text-link" href="#order">Let's make your table mithoo →</a>
+        </div>
+        <div class="feature-mark" aria-hidden="true">
+          <span>मिठो</span>
+          <small>sweet · delicious · delightful</small>
+        </div>
+      </div>
+    </section>
+
+   <section class="order-section" id="order">
+  <div class="container order-card">
+
+    <div class="order-heading">
+      <p class="section-kicker">READY TO ORDER?</p>
+
+      <h2>Bring a little Nepal<br><em>to your table.</em></h2>
+
+      <p>
+        For orders, availability and current offerings, get in touch with us.
+      </p>
+
+      <p class="order-location">
+        📍 Hamilton, Ontario
+      </p>
+    </div>
+
+    <div class="order-actions">
+
+      <a class="btn btn-light"
+         href="mailto:YOUR-EMAIL@example.com">
+        ✉ Email
+      </a>
+
+      <a class="btn btn-outline-light"
+         href="https://instagram.com/themithootable"
+         target="_blank"
+         rel="noopener">
+        Instagram
+      </a>
+
+      <a class="btn btn-outline-light"
+         href="https://www.facebook.com/share/1Go1hJy5zt/?mibextid=wwXIfr"
+         target="_blank"
+         rel="noopener">
+        Facebook
+      </a>
+
+      <a class="btn btn-outline-light"
+         href="https://www.tiktok.com/@the.mithoo.table?_r=1&_t=ZN-9ALEdY1WhWQ"
+         target="_blank"
+         rel="noopener">
+        TikTok
+      </a>
+
+      <a class="btn btn-outline-light"
+         href="tel:+19053175724">
+        ☎ 905-317-5724
+      </a>
+
+    </div>
+
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <img src="assets/logo.png" alt="The Mithoo Table" class="footer-logo">
+        <p>Homemade Nepali flavours, made with love.</p>
+        <p class="footer-location">📍 Hamilton, Ontario</p>
+      </div>
+      <div class="footer-right">
+        <a href="#top">Back to top ↑</a>
+        <p>© <span id="year"></span> The Mithoo Table</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="foodModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Close">×</button>
+      <p class="section-kicker">FROM THE MITHOO TABLE</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <a class="btn btn-primary" href="#order" id="modalOrder">Ask about this dish</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
